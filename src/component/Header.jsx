@@ -33,9 +33,6 @@ export default function Header({ isDarkMode, setIsDarkMode }) {
         >
           {isDarkMode ? <Moon className="h-6 w-6" /> : <Sun className="h-6 w-6" />}
         </button>
-        <div className="flex h-10 w-10 items-center justify-center rounded-full bg-blue-600 font-semibold text-white shadow-sm">
-          B
-        </div>
       </div>
     </header>
   );
